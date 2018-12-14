@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Here is the list!</h1>
+    <ol>
+          <% @students.each do |x|%>
+    <li><%= x.to_s %></li>
+    <% end %></ol>
+  </body>
+</html>
